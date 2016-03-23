@@ -12,6 +12,10 @@
 		18D8A6101CA1BE4000F8C00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8A60E1CA1BE4000F8C00B /* Main.storyboard */; };
 		18D8A6121CA1BE4000F8C00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D8A6111CA1BE4000F8C00B /* Assets.xcassets */; };
 		18D8A6151CA1BE4000F8C00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8A6131CA1BE4000F8C00B /* LaunchScreen.storyboard */; };
+		F63456401CA2DE91004F150F /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634563F1CA2DE91004F150F /* Usuario.swift */; };
+		F63456421CA2E193004F150F /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63456411CA2E193004F150F /* Paciente.swift */; };
+		F63456441CA2E2FD004F150F /* Endereco.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63456431CA2E2FD004F150F /* Endereco.swift */; };
+		F63456461CA2E5DF004F150F /* Contato.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63456451CA2E5DF004F150F /* Contato.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		18D8A6111CA1BE4000F8C00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D8A6141CA1BE4000F8C00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D8A6161CA1BE4000F8C00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F634563F1CA2DE91004F150F /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		F63456411CA2E193004F150F /* Paciente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
+		F63456431CA2E2FD004F150F /* Endereco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endereco.swift; sourceTree = "<group>"; };
+		F63456451CA2E5DF004F150F /* Contato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contato.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				18D8A6111CA1BE4000F8C00B /* Assets.xcassets */,
 				18D8A6131CA1BE4000F8C00B /* LaunchScreen.storyboard */,
 				18D8A6161CA1BE4000F8C00B /* Info.plist */,
+				F634563F1CA2DE91004F150F /* Usuario.swift */,
+				F63456411CA2E193004F150F /* Paciente.swift */,
+				F63456431CA2E2FD004F150F /* Endereco.swift */,
+				F63456451CA2E5DF004F150F /* Contato.swift */,
 			);
 			path = ChallengeDayUtility;
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63456461CA2E5DF004F150F /* Contato.swift in Sources */,
+				F63456441CA2E2FD004F150F /* Endereco.swift in Sources */,
 				18D8A60D1CA1BE4000F8C00B /* ViewController.swift in Sources */,
 				18D8A60B1CA1BE4000F8C00B /* AppDelegate.swift in Sources */,
+				F63456421CA2E193004F150F /* Paciente.swift in Sources */,
+				F63456401CA2DE91004F150F /* Usuario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +300,7 @@
 				18D8A61B1CA1BE4000F8C00B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
