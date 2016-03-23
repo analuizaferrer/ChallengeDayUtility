@@ -12,6 +12,7 @@
 		18D8A6101CA1BE4000F8C00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8A60E1CA1BE4000F8C00B /* Main.storyboard */; };
 		18D8A6121CA1BE4000F8C00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D8A6111CA1BE4000F8C00B /* Assets.xcassets */; };
 		18D8A6151CA1BE4000F8C00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8A6131CA1BE4000F8C00B /* LaunchScreen.storyboard */; };
+		8AB7BF9F1CA34AAE00BE5573 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7BF9D1CA34AAE00BE5573 /* Model.xcdatamodeld */; };
 		F63456401CA2DE91004F150F /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634563F1CA2DE91004F150F /* Usuario.swift */; };
 		F63456421CA2E193004F150F /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63456411CA2E193004F150F /* Paciente.swift */; };
 		F63456441CA2E2FD004F150F /* Endereco.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63456431CA2E2FD004F150F /* Endereco.swift */; };
@@ -31,6 +32,7 @@
 		18D8A6111CA1BE4000F8C00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D8A6141CA1BE4000F8C00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D8A6161CA1BE4000F8C00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB7BF9E1CA34AAE00BE5573 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		F634563F1CA2DE91004F150F /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		F63456411CA2E193004F150F /* Paciente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
 		F63456431CA2E2FD004F150F /* Endereco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endereco.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				F669BCD81CA3338F006E7146 /* Data.swift */,
 				F669BCDA1CA33426006E7146 /* tipoConsulta.swift */,
 				F669BCDC1CA3386D006E7146 /* Medico.swift */,
+				8AB7BF9D1CA34AAE00BE5573 /* Model.xcdatamodeld */,
 			);
 			path = ChallengeDayUtility;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				F669BCD51CA33247006E7146 /* Clinica.swift in Sources */,
 				F669BCD91CA3338F006E7146 /* Data.swift in Sources */,
 				F63456401CA2DE91004F150F /* Usuario.swift in Sources */,
+				8AB7BF9F1CA34AAE00BE5573 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +327,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8AB7BF9D1CA34AAE00BE5573 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AB7BF9E1CA34AAE00BE5573 /* Model.xcdatamodel */,
+			);
+			currentVersion = 8AB7BF9E1CA34AAE00BE5573 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 18D8A5FF1CA1BE4000F8C00B /* Project object */;
 }
