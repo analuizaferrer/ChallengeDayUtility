@@ -16,6 +16,11 @@
 		F63456421CA2E193004F150F /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63456411CA2E193004F150F /* Paciente.swift */; };
 		F63456441CA2E2FD004F150F /* Endereco.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63456431CA2E2FD004F150F /* Endereco.swift */; };
 		F63456461CA2E5DF004F150F /* Contato.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63456451CA2E5DF004F150F /* Contato.swift */; };
+		F669BCD51CA33247006E7146 /* Clinica.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669BCD41CA33247006E7146 /* Clinica.swift */; };
+		F669BCD71CA33320006E7146 /* Consulta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669BCD61CA33320006E7146 /* Consulta.swift */; };
+		F669BCD91CA3338F006E7146 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669BCD81CA3338F006E7146 /* Data.swift */; };
+		F669BCDB1CA33426006E7146 /* tipoConsulta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669BCDA1CA33426006E7146 /* tipoConsulta.swift */; };
+		F669BCDD1CA3386D006E7146 /* Medico.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669BCDC1CA3386D006E7146 /* Medico.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		F63456411CA2E193004F150F /* Paciente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
 		F63456431CA2E2FD004F150F /* Endereco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endereco.swift; sourceTree = "<group>"; };
 		F63456451CA2E5DF004F150F /* Contato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contato.swift; sourceTree = "<group>"; };
+		F669BCD41CA33247006E7146 /* Clinica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clinica.swift; sourceTree = "<group>"; };
+		F669BCD61CA33320006E7146 /* Consulta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consulta.swift; sourceTree = "<group>"; };
+		F669BCD81CA3338F006E7146 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F669BCDA1CA33426006E7146 /* tipoConsulta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tipoConsulta.swift; sourceTree = "<group>"; };
+		F669BCDC1CA3386D006E7146 /* Medico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medico.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,11 @@
 				F63456411CA2E193004F150F /* Paciente.swift */,
 				F63456431CA2E2FD004F150F /* Endereco.swift */,
 				F63456451CA2E5DF004F150F /* Contato.swift */,
+				F669BCD41CA33247006E7146 /* Clinica.swift */,
+				F669BCD61CA33320006E7146 /* Consulta.swift */,
+				F669BCD81CA3338F006E7146 /* Data.swift */,
+				F669BCDA1CA33426006E7146 /* tipoConsulta.swift */,
+				F669BCDC1CA3386D006E7146 /* Medico.swift */,
 			);
 			path = ChallengeDayUtility;
 			sourceTree = "<group>";
@@ -148,10 +163,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F63456461CA2E5DF004F150F /* Contato.swift in Sources */,
+				F669BCDD1CA3386D006E7146 /* Medico.swift in Sources */,
 				F63456441CA2E2FD004F150F /* Endereco.swift in Sources */,
+				F669BCD71CA33320006E7146 /* Consulta.swift in Sources */,
 				18D8A60D1CA1BE4000F8C00B /* ViewController.swift in Sources */,
+				F669BCDB1CA33426006E7146 /* tipoConsulta.swift in Sources */,
 				18D8A60B1CA1BE4000F8C00B /* AppDelegate.swift in Sources */,
 				F63456421CA2E193004F150F /* Paciente.swift in Sources */,
+				F669BCD51CA33247006E7146 /* Clinica.swift in Sources */,
+				F669BCD91CA3338F006E7146 /* Data.swift in Sources */,
 				F63456401CA2DE91004F150F /* Usuario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
