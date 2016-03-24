@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--Tela Inicial-->
@@ -99,7 +99,7 @@
             </objects>
             <point key="canvasLocation" x="1162.5" y="349"/>
         </scene>
-        <!--Item-->
+        <!--Próxima consulta-->
         <scene sceneID="1ke-RG-5cJ">
             <objects>
                 <viewController id="Ixd-Ef-Yj4" sceneMemberID="viewController">
@@ -177,11 +177,47 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="goE-BJ-4ap"/>
+                    <tabBarItem key="tabBarItem" title="Próxima consulta" image="clock" id="goE-BJ-4ap"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JdE-tH-wn6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2779.5" y="349"/>
+        </scene>
+        <!--Agendar consulta-->
+        <scene sceneID="JcY-Tf-Qhl">
+            <objects>
+                <viewController id="ZKt-KX-Odq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="os7-xD-atd"/>
+                        <viewControllerLayoutGuide type="bottom" id="v0y-0y-nt2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n1Q-2Z-a8u">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Agendar consulta" image="calendar" id="VEI-zO-49r"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AHp-Jh-Zmh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1861.5" y="1236"/>
+        </scene>
+        <!--Configurações-->
+        <scene sceneID="7BE-2E-ccU">
+            <objects>
+                <viewController id="JQZ-o4-gBg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ugh-aL-T5d"/>
+                        <viewControllerLayoutGuide type="bottom" id="PEX-nn-n83"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PWr-Ni-toO">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Configurações" image="gear" id="uxO-Ah-GB5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xR4-UL-pWZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2779.5" y="1236"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="790-ch-nRG">
@@ -194,6 +230,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="Ixd-Ef-Yj4" kind="relationship" relationship="viewControllers" id="vRB-6Z-jm3"/>
+                        <segue destination="ZKt-KX-Odq" kind="relationship" relationship="viewControllers" id="TjT-lu-JOf"/>
+                        <segue destination="JQZ-o4-gBg" kind="relationship" relationship="viewControllers" id="dTI-fK-1a5"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dNm-Pq-06g" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -201,4 +239,9 @@
             <point key="canvasLocation" x="1861.5" y="349"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="calendar" width="29" height="30"/>
+        <image name="clock" width="29" height="30"/>
+        <image name="gear" width="30" height="30"/>
+    </resources>
 </document>
