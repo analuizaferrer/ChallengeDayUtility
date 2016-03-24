@@ -74,12 +74,21 @@
 		18D8A6091CA1BE4000F8C00B /* ChallengeDayUtility */ = {
 			isa = PBXGroup;
 			children = (
+				F63310DC1CA447AA00632E8C /* Model */,
 				18D8A60A1CA1BE4000F8C00B /* AppDelegate.swift */,
 				18D8A60C1CA1BE4000F8C00B /* ViewController.swift */,
 				18D8A60E1CA1BE4000F8C00B /* Main.storyboard */,
 				18D8A6111CA1BE4000F8C00B /* Assets.xcassets */,
 				18D8A6131CA1BE4000F8C00B /* LaunchScreen.storyboard */,
 				18D8A6161CA1BE4000F8C00B /* Info.plist */,
+				8AB7BF9D1CA34AAE00BE5573 /* Model.xcdatamodeld */,
+			);
+			path = ChallengeDayUtility;
+			sourceTree = "<group>";
+		};
+		F63310DC1CA447AA00632E8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				F634563F1CA2DE91004F150F /* Usuario.swift */,
 				F63456411CA2E193004F150F /* Paciente.swift */,
 				F63456431CA2E2FD004F150F /* Endereco.swift */,
@@ -89,9 +98,8 @@
 				F669BCD81CA3338F006E7146 /* Data.swift */,
 				F669BCDA1CA33426006E7146 /* tipoConsulta.swift */,
 				F669BCDC1CA3386D006E7146 /* Medico.swift */,
-				8AB7BF9D1CA34AAE00BE5573 /* Model.xcdatamodeld */,
 			);
-			path = ChallengeDayUtility;
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
